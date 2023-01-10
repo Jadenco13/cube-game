@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(44, 44, 44);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.general-div {
+    background-color: rgb(25, 25, 25);
+    width: 600px;
+    height: 590px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.child-div {
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+dialog {
+    box-shadow: 17px 17px 21px 3px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 17px 17px 21px 3px rgba(0,0,0,0.44);
+    -moz-box-shadow: 17px 17px 21px 3px rgba(0,0,0,0.44);
+    border: none;
+}
+
+dialog::backdrop {
+    opacity: 0.5;
+    background-color: #Edf1ec;
+}
